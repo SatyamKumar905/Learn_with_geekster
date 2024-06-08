@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+     
+  <script>
+    document.onkeydown = function(e) {
+if(event.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+return false;
+}
+if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+return false;
+}
+}
+  </script>
+</head>
+<body oncontextmenu="return false;">
+    <div class="container">
+      <div class="shoe" style=" background: linear-gradient(to right, #8a2387, #e94057, #f27121);">
+        <div class="des">
+          <h1>Shoe-1</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet at,
+            blanditiis saepe adipisci molestiae neque quisquam perferendis,
+            repudiandae repellendus odio a repellat minus iste sapiente
+            molestias nulla nam, quas perspiciatis!
+          </p>
+          <p>
+            Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Rem, dolore.
+          </p>
+        </div>
+        <img class="shoe-1" src="shoe-1.png"/>    
+      </div>
+    </div>
+  </body>
+</html>
